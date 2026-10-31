@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1E293B;
+  --color-primary-dark: #0F172A;
+  --color-accent: #2F5D8A;
+  --color-accent-dark: #264C72;
+  --color-accent-soft: #E8EEF5;
+  --color-surface: #FFFFFF;
+  --color-surface-subtle: #F1F5F9;
+  --color-border: #E2E8F0;
+  --color-text: #0F172A;
+  --color-text-secondary: #475569;
+  --color-text-muted: #64748B;
+  --color-success: #2F7D5B;
+  --color-success-soft: #E7F3EC;
+  --color-warning: #B7791F;
+  --color-warning-soft: #FBF3E0;
+  --color-danger: #B4443C;
+  --color-danger-soft: #F9E8E6;
+  --font-family-sans: 'Inter', system-ui, sans-serif;
+  --border-radius-card: 12px;
+  --border-radius-input: 8px;
+  --shadow-subtle: 0 1px 2px rgba(15,23,42,0.06);
+  --shadow-card: 0 1px 3px rgba(15,23,42,0.08);
+}
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #0F172A;
+    background-color: #F8FAFC;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  :focus-visible {
+    outline: 2px solid #2F5D8A;
+    outline-offset: 2px;
+  }
+}
+;
